@@ -1,0 +1,58 @@
+.get-in-touch {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.wrapper {
+  width: 700px;
+  height: 400px;
+}
+
+.image img {
+  width: 700px;
+  height: 400px;
+}
+
+.get-in-touch h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.get-in-touch form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-in-touch label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.get-in-touch label input,
+.get-in-touch label textarea {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  width: 400px
+}
+
+.get-in-touch button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: 100px
+}
+
+.get-in-touch button:hover {
+  background-color: #0056b3;
+}
